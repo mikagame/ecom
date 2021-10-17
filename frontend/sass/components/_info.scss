@@ -1,0 +1,33 @@
+.new {
+    animation: bg 2.5s ease-in-out;
+    
+}
+
+
+#info {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    opacity: 0;
+    p {
+        font-size: 18px;
+        display: flex;
+        z-index: 0;
+        color: white;
+        opacity: 1;
+        border: 3px solid rgb(70, 70, 131);
+        border-radius: 15px;
+        padding: 100px;
+        background-color: green;
+        opacity: 0.5;
+    }
+}
+
+
+
+

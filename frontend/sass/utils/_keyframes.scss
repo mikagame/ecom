@@ -1,0 +1,32 @@
+@keyframes fadein {
+    0% {
+        transform:  translateY(-100px) ;
+        
+        opacity: 0;
+    }
+    100% {
+        transform:  translateY(0) ;
+        
+        opacity: 1;
+    }
+}
+
+@keyframes bg {
+    0% {
+        opacity: 0;
+        z-index: 9998;
+    }
+    20% {
+        opacity: 1;
+        z-index: 9998;
+        
+    }
+    60% {
+        opacity: 1;
+        z-index: 9998;
+    }
+    100% {
+        opacity: 0;
+        z-index: 9998;
+    }
+}

@@ -1,0 +1,25 @@
+#terminate {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    margin: 50px auto;
+    margin-bottom: 200px;
+    border: 1px solid rgb(90, 9, 1);
+    border-radius: 15px;
+    padding: 20px 0 20px 0;
+    h1, h2, p {
+        margin: 5px ;
+    }
+}
+
+
+
+@media only screen  and (max-width: 767px) {
+
+    #terminate {
+        margin-bottom: 280px;
+        font-size: 15px;
+    }
+}
+
